@@ -25,9 +25,9 @@ class Update extends DB
 
 	public function checkUpdate()
 	{
-		$fichierDeVersionGenerique = file_get_contents("https://raw.githubusercontent.com/numenorien0/web-on/master/CMS/version.txt");
+		$fichierDeVersionGenerique = intval(str_replace(".", "", file_get_contents("https://raw.githubusercontent.com/numenorien0/web-on/master/CMS/version.txt")));
 		//exit($fichierDeVersionGenerique);
-		$fichierDeNotreVersion = file_get_contents("version.txt");
+		$fichierDeNotreVersion = intval(str_replace(".", "", file_get_contents("version.txt")));
 		if($fichierDeNotreVersion < $fichierDeVersionGenerique)
 		{
 			return true;
