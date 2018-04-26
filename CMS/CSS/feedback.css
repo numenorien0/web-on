@@ -1,0 +1,44 @@
+input[type=text], select, textarea, input[type=email]
+{
+	width: 50%;
+	display: block;
+	margin: auto;
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 10px;
+}
+label
+{
+	display: block;
+	float: left;
+	text-align: right;
+	margin-top: 10px !important;
+	width: 30%;
+	margin: auto;
+	font-weight: 500;
+}
+#fail
+{
+	width: 100%;
+	display: block;
+	margin: auto;
+	font-weight: 500;
+	color: red;
+	font-size: 12px;
+	float: left;
+	text-align: center;
+}
+select
+{
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+textarea
+{
+	margin-top: 10px;
+}
+.rapport
+{
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}

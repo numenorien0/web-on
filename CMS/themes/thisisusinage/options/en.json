@@ -1,0 +1,62 @@
+{
+    "inscription_seance": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "joinusimg": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "image"
+    },
+    "more_info": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Rejoignez-nous": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Rejoignez-nous sous-titre": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 1": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 2": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 3": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 4": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Presentation usineur": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Sous-titre usineur": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "call to action": {
+        "value": "",
+        "categorie": "Global",
+        "type": "text"
+    }
+}

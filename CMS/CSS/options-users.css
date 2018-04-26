@@ -1,0 +1,17 @@
+table
+{
+	width: 100%;
+}
+td
+{
+	border: 1px solid #dadada;
+	padding: 10px;
+}
+thead td
+{
+	font-weight: bold !important;
+}
+.action a
+{
+	font-size: 12px;
+}

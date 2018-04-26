@@ -1,0 +1,55 @@
+/* #30383C */
+form
+{
+	margin-top: 15%;
+	background-color: white;
+/* 	border: 1px solid #272D30; */
+	color: white;
+	box-shadow: 0px 0px 100px 1px rgba(0,0,0,0.5);
+	padding: 50px;
+	border-radius: 4px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+input
+{
+	color: black;
+	margin-bottom: 15px;
+	padding: 5px;
+	border: 1px solid #252B2E;
+	border-bottom: 2px solid black !important !important;
+	-webkit-appearance: none;
+	color: black;
+}
+input[type=submit]
+{
+	padding: 10px;
+	color: white;
+	-webkit-appearance: none;
+	border: none;
+	/*border: 1px solid #439956;*/
+	/*border-bottom: 4px solid #47A25B;*/
+	background: linear-gradient(#5ACD73, #0FBB1B);
+	border-radius: 4px;
+	text-shadow: 0px -2px 1px rgba(0,0,0,0.2);
+	margin-bottom: 5px;
+	margin-top: 20px;
+	box-shadow: 0px -1px 1px rgba(255,255,255,0.2) inset;
+	text-align: center;
+}
+input:focus
+{
+	outline: none;
+}
+input[type=submit]:hover
+{
+	cursor: pointer;
+}
+html, body
+{
+	width: 100%;
+	height: 100%;
+	background: url("../images/space.jpg");
+	background-size: cover;
+}

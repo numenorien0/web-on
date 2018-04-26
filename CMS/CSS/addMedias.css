@@ -1,0 +1,48 @@
+form
+{
+	padding: 0px !important;
+}
+.parametre
+{
+	padding-right: 0px;
+}
+label
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 0 !important;
+}
+input[type=file]
+{
+	float: left;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: none;
+}
+input[type=checkbox]
+{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.liste
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.helpDestination
+{
+	font-size: 14px;
+	color: #4A4A4A;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.arborescenceCadre
+{
+	background-color: #DEDFDE;
+	color: black;
+	padding: 7px;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}

@@ -1,0 +1,59 @@
+SetEnv MAGIC_QUOTES 0
+
+Options +FollowSymlinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} !JS/
+RewriteCond %{REQUEST_URI} !mailing/
+RewriteCond %{REQUEST_URI} !Analytics/
+RewriteCond %{REQUEST_URI} !analytics/
+RewriteCond %{REQUEST_URI} !themes/
+RewriteCond %{REQUEST_URI} !plugins/vues/
+RewriteCond %{REQUEST_URI} !plugins/
+RewriteCond %{REQUEST_URI} !plugins/CMS_Manager/
+RewriteCond %{REQUEST_URI} !eshop/
+
+#RewriteRule ^(.+)_(.+)\.html$ index.php?f=test.php&ID=$1 [QSA]
+RewriteRule ^(.+)\.php$ index.php?f=$1.php [QSA]
+#RewriteRule ^(.+)\/analytics/ tracking.php?id=$1 [QSA]
+
+<Files "db.conf">
+Order allow,deny
+Deny from all
+</Files>
+
+<Files "htaccess.txt">
+Order allow,deny
+Deny from all
+</Files>
+
+AddType application/vnd.ms-fontobject  eot
+AddType font/truetype                  ttf
+AddType font/opentype                  otf
+AddType application/x-font-woff              woff
+
+## contrôle du cache navigateur - Expire headers
+<IfModule mod_expires.c>
+	ExpiresActive On
+	ExpiresDefault "access plus 7200 seconds"
+	ExpiresByType image/jpg 			"access plus 1 week"
+	ExpiresByType image/jpeg 			"access plus 1 week"
+	ExpiresByType image/png 			"access plus 1 week"
+	ExpiresByType image/gif 			"access plus 1 week"
+	ExpiresByType application/vnd.ms-fontobject 			"access plus 1 week"
+	ExpiresByType font/truetype 			"access plus 1 week"
+	ExpiresByType font/opentype 			"access plus 1 week"
+	ExpiresByType application/x-font-woff 			"access plus 1 week"
+	ExpiresByType image/svg+xml			"access plus 1 week"
+	AddType image/x-icon .ico
+	ExpiresByType image/ico 			"access plus 1 week"
+	ExpiresByType image/icon 			"access plus 1 week"
+	ExpiresByType image/x-icon 			"access plus 1 week"
+ 	ExpiresByType text/css 				"access plus 1 week"
+ 	ExpiresByType text/javascript 		"access plus 1 week"
+ 	ExpiresByType text/html 			"access plus 7200 seconds"
+	ExpiresByType application/xhtml+xml 	"access plus 7200 seconds"
+	ExpiresByType application/javascript 	"access plus 1 week"
+	ExpiresByType application/x-javascript 	"access plus 1 week"
+	ExpiresByType application/x-shockwave-flash "access plus 1 week"
+</IfModule>

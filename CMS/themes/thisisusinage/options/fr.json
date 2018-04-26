@@ -1,0 +1,62 @@
+{
+    "inscription_seance": {
+        "value": "INSCRIPTION \u00c0 LA S\u00c9ANCE D'INFO <br\/> 0800 93 947",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "joinusimg": {
+        "value": "content\/images\/joinus.png",
+        "categorie": "Homepage",
+        "type": "image"
+    },
+    "more_info": {
+        "value": "Plus d'infos<br\/><a href='http:\/\/technifutur.be'>www.technifutur.be<\/a>",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Rejoignez-nous": {
+        "value": "REJOIGNEZ-NOUS & D\u00c9COUVREZ NOS M\u00c9TIERS",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Rejoignez-nous sous-titre": {
+        "value": "PROCHAINE S\u00c9ANCE D'INFORMATION",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 1": {
+        "value": "17 | 05",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 2": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 3": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "date 4": {
+        "value": "",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Presentation usineur": {
+        "value": "This is \"<span style='color: #eb398d'>us<\/span>\" \/ t\u00e9moignages",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "Sous-titre usineur": {
+        "value": "ces professionnels de l'usinage donnent un sens \u00e0 leur m\u00e9tier",
+        "categorie": "Homepage",
+        "type": "text"
+    },
+    "call to action": {
+        "value": "Join us",
+        "categorie": "Global",
+        "type": "text"
+    }
+}

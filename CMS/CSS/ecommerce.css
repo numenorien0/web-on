@@ -1,0 +1,106 @@
+.notYet
+{
+	color: #AFAFAF;
+	height: 80px;
+	overflow: auto;
+}
+.notYet2
+{
+	color: #AFAFAF;
+}
+.toolsTuto .cadre
+{
+	background-color: #ededed
+}
+.toolsPadding
+{
+	padding: 7px;
+}
+.notYet::-webkit-scrollbar
+{
+	width: 2px;
+}
+.notYet::-webkit-scrollbar-thumb
+{
+	background-color: #DADADA;
+}
+.oops
+{
+	margin-top: 30px;
+	text-align: center;
+	font-size: 70px;
+	font-weight: bold;
+	color: #afafaf;
+}
+.tools .cadre
+{
+	height: 300px;
+	overflow: hidden;
+	transition: linear .2s;
+	margin-top: 7px;
+}
+.tools .cadre:hover
+{
+	transform: scale(1.05);
+}
+.explicationsOops
+{
+	font-size: 14px;
+	color: #afafaf;
+	text-align: center;
+	margin-top: 15px;
+}
+#dropfile
+{
+	border: 2px solid #AFAFAF;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	border-radius: 4px;
+	margin-top: 15px;
+}
+.explicationUpload
+{
+	color: #AFAFAF;
+}
+.cadre
+{
+	margin-bottom: 0px;
+}
+.iconeAppContainer
+{
+	text-align: center;
+}
+.iconeApp
+{
+	height: 120px;
+	margin-bottom: 20px;
+}
+.appName
+{
+	text-align: center;
+}
+
+div.fail
+{
+	margin-left:60px;
+}
+
+
+
+
+
+.liste
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom:10px;
+}
+
+.alert
+{
+	padding:5px;
+	margin-bottom:0;
+	cursor:pointer;
+}

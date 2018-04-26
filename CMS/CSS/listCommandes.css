@@ -1,0 +1,352 @@
+.selectBox.active
+{
+	background-color: #449d44;
+	border-color: #398439;
+	box-shadow: none;
+}
+.selectBox
+{
+	background-color: #afafaf;
+	border-color: #939393;
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1) inset;
+	width: 30px;
+	height: 30px;
+	font-size: 13px;
+	padding: 5px !important;
+}
+.btn span.glyphicon {    			
+	opacity: 0;				
+}
+.btn.active span.glyphicon {				
+	opacity: 1;				
+}
+.ligne
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 15px;
+	border-bottom: 1px solid #dadada;
+}
+.titre
+{
+	padding-top: 10px;
+}
+#logoSettings
+{
+	height: 20px;
+	float: right;
+}
+#logoSettings img
+{
+	height: 100%;
+	margin-top: 10px;
+	-webkit-filter: brightness(50%);
+	transition: linear .2s;
+}
+#logoSettings img:hover
+{
+	cursor: pointer;
+	-webkit-filter: brightness(0%);
+}
+.numberItemSelect
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.iconeBefore
+{
+	height: 20px;
+	float: left;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	margin-right: 10px;
+	-webkit-filter: drop-shadow(0px 2px 1px rgba(0,0,0,0.5));
+}
+.dropZone
+{
+	height: 40px;
+	border: 1px solid red;
+}
+.createPageContainer
+{
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+h3 a
+{
+	text-decoration: underline;
+}
+h3 a:last-child
+{
+	text-decoration: none;
+}
+.delete
+{
+	width: 25px;
+	height: 26px;
+	margin-left: 5px;
+	line-height: 13px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 4px;
+	float: left;
+	color: white;
+	background: linear-gradient(#FF485E, #E93B1E) !important;
+	border: none;
+	/*border: 1px solid #B92D18;*/
+	/*border-bottom: 4px solid #B92D18;*/
+	text-decoration: underline;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+.caution
+{
+	margin-right: 5px;
+	height: 20px;
+	margin-bottom: 0px;
+}
+.createPage
+{
+	background: none;
+	color: #AFAFAF;
+	border: 2px solid #AFAFAF;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 4px;
+	transition: linear .2s;
+	box-shadow: none;
+}
+.explicationArborescence
+{
+	color: #AFAFAF;
+	font-style: italic;
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.ligne:last-child
+{
+	border-bottom: none;
+}
+.openRepertoire
+{
+	padding-left: 5px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 4px;
+	transition: linear .2s;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;
+}
+.openRepertoire:hover
+{
+	background-color: #d9d9d9;
+/* 	box-shadow: 0px 0px 6px rgba(0,0,0,0.2); */
+	transform: scale(1.005);
+	cursor: pointer;
+}
+.openRepertoire:hover:after
+{
+	content: " \00a0 \00a0 Afficher les sous-pages";
+	color: #a5a5a5;
+	font-size: 11px;
+}
+.arrow-right
+{
+	height: 20px;
+	margin-left: 15px;
+	margin-bottom: -5px;
+}
+.createPage:hover
+{
+	color: black;
+	text-decoration: none;
+	border-color: black;
+}
+.edit
+{
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+.child, .edit, .delete
+{
+	text-decoration: none;
+	padding: 2px;
+}
+.child:hover, .delete:hover, .edit:hover
+{
+	cursor: pointer;
+}
+.enfantsDiv
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h3 a
+{
+	color: black;
+	font-weight: bold;
+}
+.actionPages div
+{
+	padding: 2px;
+}
+.actionPages
+{
+	padding-right: 0;
+}
+h3
+{
+	margin-bottom: 15px !important;
+}
+.PasDePage
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	color: #AFAFAF;
+	font-weight: bold;
+}
+.backMove
+{
+	border: 2px solid #AFAFAF;
+	text-align: center;
+	padding: 5px;
+	color: #AFAFAF;
+	border-radius: 4px;	
+	transition: linear .2s;
+}
+.nextMove
+{
+	border: 2px solid #AFAFAF;
+	text-align: center;
+	padding: 5px;
+	color: #AFAFAF;
+	border-radius: 4px;
+	transition: linear .2s;
+}
+.nextMove:hover, .backMove:hover
+{
+	cursor: pointer;
+	border-color: black;
+	color: black;
+}
+
+.liste
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom:10px;
+}
+
+.delete{
+	text-decoration:none !important;
+	width: 25px;
+    height: 26px;
+    margin-left: 5px;
+    line-height: 13px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 4px;
+    float: left;
+    color: white;
+    background: linear-gradient(#FF485E, #E93B1E) !important;
+    border: none;
+    /* border: 1px solid #B92D18; */
+    /* border-bottom: 4px solid #B92D18; */
+    text-decoration: underline;
+    box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+
+.delete:hover{
+	background: #DF6F73 !important;
+	color:#fff;
+}
+
+a.client_name{
+	color:#53c360 !important;
+}
+
+a.add_client{
+	padding: 10px;
+    color: white;
+    -webkit-appearance: none;
+    border: none;
+    /* border: 1px solid #439956; */
+    /* border-bottom: 4px solid #47A25B; */
+    /* background: linear-gradient(#5ACD73, #0FBB1B); */
+    border-radius: 4px;
+    background: #53c360;
+    /* text-shadow: 0px -2px 1px rgba(0,0,0,0.2); */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    box-shadow: 0px -1px 1px rgba(255,255,255,0.3) inset, 0px 1px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    font-size: 13px;
+}
+
+.alert
+{
+	padding:5px;
+	margin-bottom:0;
+	cursor:pointer;
+}
+
+.dropdown-item
+{
+	display:block;
+	font-size:1.2em;
+	padding:10px;
+	
+}
+.dropdown-item:hover
+{
+	text-decoration:none;
+	background-color:#ccc;
+	
+}
+.odd
+{
+	background-color: #f2f2f2 !important;
+}
+td
+{
+	vertical-align: middle;
+}
+
+.error
+{
+    background-color: #f2dede;
+	border-color: #ebccd1;
+	color: #a94442;
+	padding : 15px;
+}
+
+@media (min-width: 992px){
+	.modal-lg
+	{
+	    width: 90% !important;
+	}
+}
+
+.selected
+{
+	border:solid 1px #000;
+}
+
+.fa-exclamation-circle
+{
+	cursor:pointer;
+}
+.statut-filtre:hover
+{
+	background: white !important;
+	color: black;
+}

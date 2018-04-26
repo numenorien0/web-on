@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informations>
+	<id>file</id>
+	<name>Fichier</name>
+	<description>Gérez vos fichier et pièces jointes</description>
+	<icone>file.jpg</icone>
+	<state>enabled</state>
+	<pages>
+		<page>listMedias</page>
+	</pages>
+</informations>
+

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informations>
+	<id>get_started</id>
+	<name>développer un plugin pour Pilot 2.Oh!</name>
+	<description>Apprenez dans ce document a développer un plugin pour Oh! CMS si vous êtes développeur.</description>
+	<state>enabled</state>
+	<pages>
+		<page>get_started</page>
+	</pages>
+</informations>
+

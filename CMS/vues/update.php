@@ -1,0 +1,4 @@
+<?php
+$update = new Update();
+?>
+

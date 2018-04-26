@@ -1,0 +1,221 @@
+.blackScreen
+{
+	z-index: 1000000;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.iframe
+{
+	position: fixed;
+	width: 600px;
+	height: 80%;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: white;
+	z-index: 1000000001;
+	display: none;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+	border-radius: 4px !important;
+}
+.contenuDeLaPage
+{
+/* 	z-index: 1000000002; */
+}
+form
+{
+	padding: 0px !important;
+}
+.parametre
+{
+	padding-right: 0px;
+}
+label
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 0 !important;
+}
+input[type=file]
+{
+	float: left;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: none;
+}
+input[type=checkbox]
+{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.liste
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.helpDestination
+{
+	font-size: 14px;
+	color: #4A4A4A;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.arborescenceCadre
+{
+	background-color: #DEDFDE;
+	color: black;
+	padding: 7px;
+	border-radius: 4px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.switchery
+{
+	margin: 0px;
+	margin-top: 2px;
+}
+.userPermission .switchery
+{
+	margin-bottom: 2px;
+}
+.checkAll .switchery
+{
+	float: right;
+	margin-right: 5px;
+}
+
+div#unique span.select2-selection.select2-selection--multiple{
+	border: 1px solid #AFAFAF;
+	margin-top: 7px;
+	margin-bottom: 5px;
+	padding: 5px;
+	padding-top: 6px;
+	border-radius: 4px;
+
+	border-radius: 0px !important;
+	border: none !important;
+	border-bottom: 2px solid #AFAFAF !important;
+	background-color: transparent;
+	padding-bottom: 5px !important;
+	transition: linear .2s;
+}
+
+.arborescence{
+	background: url(../images/flecheDroite.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 95% center;
+    background-color: #7F96A1;
+    vertical-align: top;
+    border-radius: 4px;padding-top: 2px;
+    margin-bottom: 3px;
+    padding-bottom: 10px;
+    background-color: #7F96A1;
+    color: white;
+}
+
+.arborescence:hover, .nomCategory:hover{
+	cursor: pointer;
+    background-color: #526168;
+}
+
+.nomCategory{
+	margin-top: 10px !important;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+}
+
+.listeCategory{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.selectedCategory{
+	background-color: #526168;
+}
+
+.selectedButton{
+	background-color: #929292 !important;
+	border:none;
+}
+
+.selectedImage
+{
+	transition: linear .2s;
+	transform: scale(1.1);
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+	z-index: 100;
+	background-color: #dadada;
+/* 	border:solid 3px black !important; */
+}
+
+.button-action{
+	margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #019fdc !important;
+    border: solid 1px #019fdc !important;
+}
+
+.button-add{
+	background-color: #019fdc !important;
+	color:#fff !important;
+	border: solid 1px #019fdc !important;
+	cursor: pointer !important;
+}
+
+.button-add:hover, .button-action:hover{
+	background: #00a8e8 !important;
+	border: solid 1px #00a8e8 !important;
+}
+
+.photoDisplay
+{
+	margin-top:20px;
+}
+.listeCategory .switchery
+{
+	float: left;
+	margin-right: 15px;
+}
+.listeCategory li
+{
+	border-bottom: 1px solid #c4c4c4;
+	margin-bottom: 2px;
+}
+.listeCategory li:last-child
+{
+	border: none;
+}
+.oldCheckbox
+{
+	margin-right: 10px !important;
+}
+
+.btn_lang
+{
+	margin-bottom:0 !important;
+}
+.btn_lang.active .btn-info
+{
+	background: #e9e9e9;
+	color: #27c1e2
+}
+
+.wysiwygContainer
+{
+	display:block;
+}
+
+.btn-action.category
+{
+	margin-bottom:10px;
+}

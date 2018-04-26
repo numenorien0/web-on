@@ -1,0 +1,21 @@
+.template
+{
+	background-color: #dadada;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.deleteTemplate
+{
+	float: right;
+	color: red;
+	font-style: italic;
+	font-size: 12px;
+	margin: 0;
+	padding: 2px;
+	background: transparent;
+}
+.template:hover
+{
+	font-weight: bold;
+	cursor: pointer;
+}

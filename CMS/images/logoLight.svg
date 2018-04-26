@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3508 2481" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g transform="matrix(1.66391,0,0,1.66391,440.681,-89.3893)">
+        <text x="473.18px" y="905.512px" style="font-family:'DesignioBold', 'Designio Bold';font-size:600px;fill:white;">EB</text>
+        <text x="1144.58px" y="905.512px" style="font-family:'DesignioBold', 'Designio Bold';font-size:600px;fill:rgb(93,202,232);">O</text>
+        <text x="1487.78px" y="905.512px" style="font-family:'DesignioBold', 'Designio Bold';font-size:600px;fill:white;">N</text>
+    </g>
+    <g transform="matrix(1.26213,-0.883368,0.586401,0.837831,-749.937,429.633)">
+        <path d="M391.507,845.648C391.507,802.748 368.386,767.918 339.908,767.918C311.43,767.918 288.309,802.748 288.309,845.648L288.309,1439.14C288.309,1482.04 311.43,1516.87 339.908,1516.87C368.386,1516.87 391.507,1482.04 391.507,1439.14L391.507,845.648Z" style="fill:rgb(93,202,232);"/>
+    </g>
+    <g transform="matrix(1.26213,-0.883368,0.586401,0.837831,-395.464,429.633)">
+        <path d="M391.507,845.648C391.507,802.748 368.386,767.918 339.908,767.918C311.43,767.918 288.309,802.748 288.309,845.648L288.309,1439.14C288.309,1482.04 311.43,1516.87 339.908,1516.87C368.386,1516.87 391.507,1482.04 391.507,1439.14L391.507,845.648Z" style="fill:rgb(0,228,255);"/>
+    </g>
+    <g transform="matrix(1.26213,-0.883368,0.250605,0.358056,241.645,804.356)">
+        <path d="M391.507,949.802C391.507,849.417 368.386,767.918 339.908,767.918C311.43,767.918 288.309,849.417 288.309,949.802L288.309,1334.99C288.309,1435.37 311.43,1516.87 339.908,1516.87C368.386,1516.87 391.507,1435.37 391.507,1334.99L391.507,949.802Z" style="fill:white;"/>
+    </g>
+    <g transform="matrix(1.44036,0,0,1.44036,173.076,-778.092)">
+        <text x="757.569px" y="1697.29px" style="font-family:'DesignioBold', 'Designio Bold';font-size:200px;fill:white;">Your digital solution</text>
+    </g>
+</svg>

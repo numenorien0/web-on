@@ -1,0 +1,293 @@
+.ligne
+{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	padding-right: 15px;
+	overflow: hidden;
+/* 	border-bottom: 1px solid #dadada; */
+/* transition: linear .2s; */
+}
+.titre
+{
+	padding-top: 10px;
+}
+#logoSettings
+{
+	padding: 7px;
+	color: #cacaca;
+	border: 1px solid #cacaca;
+	border-radius: 4px;
+	margin-top: 4px;
+	float: right;
+}
+#logoSettings img
+{
+	height: 100%;
+	margin-top: 10px;
+	-webkit-filter: brightness(50%);
+	transition: linear .2s;
+}
+#logoSettings:hover
+{
+	text-decoration: none;
+	color: #3f3f3f;
+	border-color: #3f3f3f;
+}
+#logoSettings img:hover
+{
+	cursor: pointer;
+	-webkit-filter: brightness(0%);
+}
+.numberItemSelect
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.numberItemSelect select
+{
+	min-width: 100px;
+}
+.iconeBefore
+{
+	height: 20px;
+	float: left;
+	margin-top: -2px;
+	margin-bottom: -2px;
+	margin-right: 10px;
+	-webkit-filter: drop-shadow(0px 1px 0px rgba(0,0,0,0.5));
+}
+.dropZone
+{
+	height: 40px;
+	border: 1px solid red;
+}
+.createPageContainer
+{
+	margin-bottom: 15px;
+	margin-top: 0px;
+	position: relative;
+}
+h3 a
+{
+	text-decoration: none;
+}
+h3 a:last-child
+{
+	text-decoration: none;
+}
+.delete
+{
+	width: 25px;
+	height: 26px;
+	margin-left: 5px;
+	line-height: 13px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 0px;
+	float: left;
+	color: white;
+	background: linear-gradient(#FF485E, #E93B1E) !important;
+	border: none;
+	/*border: 1px solid #B92D18;*/
+	/*border-bottom: 4px solid #B92D18;*/
+	text-decoration: underline;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+.caution
+{
+	margin-right: 5px;
+	height: 20px;
+	margin-bottom: 0px;
+}
+.createPage
+{
+	background: #2596ed;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	transition: linear .5s;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	display: inline-block;
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	border-radius: 0px;
+	z-index: 10;
+}
+.explicationArborescence
+{
+	color: #AFAFAF;
+	font-style: italic;
+	font-size: 13px;
+	margin-bottom: 10px;
+	padding-left: 5px;
+}
+.ligne:last-child
+{
+	border-bottom: none;
+}
+.openRepertoire
+{
+	padding-left: 5px;
+	padding-left: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+	border-radius: 0px;
+/* 	transition: linear .2s; */
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none;   /* Chrome/Safari/Opera */
+  -khtml-user-select: none;    /* Konqueror */
+  -moz-user-select: none;      /* Firefox */
+  -ms-user-select: none;       /* IE/Edge */
+  user-select: none;
+}
+.ligne:hover
+{
+	background-color: #dbdbdb;
+	color: #000000;
+	border-left: 3px solid #1d94ea;
+	cursor: pointer;
+/* 	margin-left: -18px; */
+}
+.ligne:hover .openRepertoire
+{
+	font-weight: 700;
+	font-size: 15px;
+	margin-left: -3px;
+}
+.ligne:hover .actionPages
+{
+	margin-left: 3px;
+}
+.openRepertoire:hover:after
+{
+	content: "\21E9";
+	color: black;
+	font-size: 12px;
+	margin-left: 0px;
+	text-align: center;
+	line-height: 20px;
+	border-radius: 50%;
+	padding: 2px;
+	width: 20px;
+	position: absolute;
+	display: inline-block;
+	height: 20px;
+	margin-top: -3px;
+	font-weight: 900 !important;
+}
+.arrow-right
+{
+	height: 20px;
+	margin-left: 15px;
+	margin-bottom: -5px;
+}
+.paire
+{
+	background-color: #eaeaea;
+}
+.createPage:hover
+{
+/* 	transform: scale(0.9); */
+/* 	background: #1882cf; */
+	text-decoration: none;
+	color: white;
+}
+.edit
+{
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.4);
+}
+.child, .edit, .delete, .view
+{
+	text-decoration: none;
+	padding: 2px;
+	font-weight: bold;
+	border-radius: 0px !important;
+}
+.child:hover, .delete:hover, .edit:hover
+{
+	cursor: pointer;
+}
+.view
+{
+	background: #479eff
+}
+.view:hover
+{
+	background: #36a8ff !important;
+}
+.enfantsDiv
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+h3 a
+{
+	color: black;
+	font-weight: bold;
+}
+.actionPages div
+{
+	padding: 2px;
+}
+.actionPages
+{
+	padding-right: 0;
+}
+.cadre h3#listeDuContenu
+{
+	text-transform: inherit !important;
+}
+.cadre h3#listeDuContenu a
+{
+	color: #757677 !important;
+}
+.cadre h3#listeDuContenu a.createPage
+{
+	color: white !important;
+}
+h3
+{
+	margin-bottom: 15px !important;
+}
+.PasDePage
+{
+	padding-top: 0px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	color: #AFAFAF;
+	font-weight: bold;
+}
+.backMove
+{
+	border: 2px solid #AFAFAF;
+	text-align: center;
+	padding: 5px;
+	color: #AFAFAF;
+	border-radius: 0px;	
+	transition: linear .2s;
+}
+.nextMove
+{
+	border: 2px solid #AFAFAF;
+	text-align: center;
+	padding: 5px;
+	color: #AFAFAF;
+	border-radius: 0px;
+	transition: linear .2s;
+}
+.nextMove:hover, .backMove:hover
+{
+	cursor: pointer;
+	border-color: black;
+	color: black;
+}
+.homepageTitle
+{
+	color: #7c7c7c;
+	font-style: italic;
+	font-size: 14px;
+}

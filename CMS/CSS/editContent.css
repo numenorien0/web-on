@@ -1,0 +1,347 @@
+.blackScreen
+{
+	z-index: 1000000;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: none;
+}
+.iframe
+{
+	position: fixed;
+	width: 600px;
+	height: 80%;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: white;
+	z-index: 1000000001;
+	display: none;
+	box-shadow: 0px 0px 30px rgba(0,0,0,0.9);
+	border-radius: 4px !important;
+}
+.parametreAccordeon .cadre h3:hover
+{
+	background-color: #61cb6c;
+	color: white !important;
+	cursor: pointer;
+}
+.cadre
+{
+	transition: linear .2s;
+}
+.parametreAccordeon .cadre h3:hover > .indication
+{
+	color: white;
+}
+.contenuDeLaPage
+{
+/* 	z-index: 1000000002; */
+}
+form
+{
+	padding: 0px !important;
+}
+.parametre
+{
+	padding-right: 0px;
+}
+label
+{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	padding: 0 !important;
+}
+input[type=file]
+{
+	float: left;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	display: none;
+}
+.indication
+{
+	font-size: 12px;
+	color: #AFAFAF;
+	font-style: italic;
+}
+.titleArborescence
+{
+/* 	padding-bottom: 5px !important; */
+}
+input[type=checkbox]
+{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+.liste
+{
+	border-bottom: 1px solid #E5E5E5;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.imageEdit
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.PasDePhotos
+{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.arborescence, .noPage
+{
+	padding-top: 2px;
+	margin-bottom: 3px;
+	padding-bottom: 10px;
+	background-color: #7F96A1;
+	color: white;
+}
+.arborescence
+{
+	background: url('../images/flecheDroiteNoire.png');
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	background-position: 95% center;
+	background-color: #dadada;
+	vertical-align: top;
+	color: #3f3f3f;
+	border-radius: 0px;
+	font-weight: bold !important;
+}
+.repertoireNotYet
+{
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+.repertoire
+{
+	background: url('../images/flecheDroiteNoire.png');
+	background-repeat: no-repeat;
+	background-size: auto 50%;
+	background-position: 95% center;
+	background-color: #7F96A1;
+	vertical-align: top;
+	padding-top: 2px;
+	margin-bottom: 3px;
+	padding-bottom: 10px;
+	background-color: #dadada;
+	color: #3f3f3f;
+	border-radius: 0px;	
+}
+
+.helpDestination
+{
+	font-size: 14px;
+	color: #4A4A4A;
+	padding-left: 0px;
+	margin-bottom: 10px;
+}
+.arborescence:hover
+{
+	cursor: pointer;
+	background-color: #aaaaaa;
+}
+.repertoire:hover
+{
+	cursor: pointer;
+	background-color: #aaaaaa;
+	text-decoration: none;
+	color: #3f3f3f;
+}
+
+.back, .PagePrincipale, .backRepertoire, .nextRepertoire, .nextMove, .backMove
+{
+	padding: 5px;
+	color: #3f3f3f;
+	background: #dadada;
+	text-align: center;	
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	margin-bottom: 3px;
+	font-size: 12px;
+	border-radius: 4px;
+}
+.PagePrincipale
+{
+	padding-left: 0px;
+	color: white;
+}
+.colonneGauche, .colonneDroite
+{
+	padding: 0px;
+}
+.createPage
+{
+	color: white;
+	background: #4ac464 !important;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 0px;
+	margin-top: 10px;
+	text-align: center;
+	font-size: 12px;
+}
+.nextRepertoire:hover, .backRepertoire:hover, .nextMove:hover, .backMove:hover
+{
+	cursor: pointer;
+}
+.createPage:hover
+{
+	color: white;
+	text-decoration: none;
+	border-color: black;
+}
+.PagePrincipale
+{
+	margin-top: 10px;
+/* 	background: linear-gradient(#5ACD73, #0FBB1B); */
+	border-radius: 0px;
+	background: #40c568;
+}
+.separation
+{
+	border-top: 1px solid #B3B3B3;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.noPage
+{
+	margin-bottom: 15px;
+	text-align: center;
+}
+.noPage .nomCategory
+{
+	padding-bottom: 10px;
+}
+.arborescenceCadre
+{
+	background-color: #DEDFDE;
+	color: black;
+	padding: 7px;
+	border-radius: 0px;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.deleteImage
+{
+	margin-top: 5px;
+	padding: 10px;
+	text-align: center;
+	border-radius: 0px;
+	color: white;
+	background-color: #ff313b !important;
+	border: none;
+	/*border: 1px solid #B92D18;*/
+	/*border-bottom: 4px solid #B92D18;*/
+	text-decoration: none;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.deleteImage:hover
+{
+	background: #FE5360 !important;
+	color: white;
+	text-decoration: none;
+}
+.nomCategory
+{
+	margin-top: 10px !important;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-size: 12px;
+	font-weight: 700;
+}
+#destination, #destinationID
+{
+	font-size: 12px;
+	padding-top: 5px;
+}
+#cancel
+{
+	font-size: 12px;
+	background: linear-gradient(#FF485E, #E93B1E) !important;
+	border: none;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	/*border: 1px solid #BE404A;*/
+	/*border-bottom: 4px solid #BE404A;*/
+}
+#cancel:hover
+{
+	background: #FE5360 !important;
+}
+.destinationTitle
+{
+	margin-top: 10px;
+	font-size: 14px;
+	text-align: right;
+}
+.titleDestinationVers
+{
+	text-align: center;
+	font-weight: 500;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	font-size: 14px;
+}
+.vert
+{
+	font-weight: 500 !important;
+	color: #4AC155 !important;
+}
+.titreCategorie
+{
+	margin-bottom: 20px;
+	padding-left: 0px;
+	font-size: 14px;
+	font-weight: 500;
+}
+.selectionner
+{
+	background: #60717A !important;
+	border: none !important;
+	font-size: 12px;
+}
+.back:hover, .PagePrincipale:hover
+{
+	cursor: pointer;
+}
+.cadre
+{
+	margin-bottom: 0px !important;
+}
+.validerBtn
+{
+	margin-top: 15px;
+}
+.switchery
+{
+	margin: 0px;
+	margin-top: 2px;
+}
+.userPermission .switchery
+{
+	margin-bottom: 2px;
+}
+.checkAll .switchery
+{
+	float: right;
+	margin-right: 5px;
+}
+.insideCheck .switchery
+{
+	float: right;
+	margin-right: 5px;
+}

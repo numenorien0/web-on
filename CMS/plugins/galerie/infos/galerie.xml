@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informations>
+	<id>galerie</id>
+	<name>Galerie d'image</name>
+	<description>Gérez vos galerie d'image</description>
+	<icone>galerie.jpg</icone>
+	<state>enabled</state>
+	<pages>
+		<page>listMedias</page>
+	</pages>
+</informations>
+

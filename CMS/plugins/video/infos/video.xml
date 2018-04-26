@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informations>
+	<id>video</id>
+	<name>Vidéos</name>
+	<description>Gérez les vidéos de vos pages</description>
+	<icone>video.jpg</icone>
+	<state>enabled</state>
+	<pages>
+		<page>listMedias</page>
+	</pages>
+</informations>
+

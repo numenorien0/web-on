@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<informations>
+	<id>form_builder</id>
+	<name>Premier plugin</name>
+	<description>DESC</description>
+	<state>enabled</state>
+	<pages>
+		<page>index</page>
+	</pages>
+</informations>

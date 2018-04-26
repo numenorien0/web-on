@@ -1,0 +1,220 @@
+.notYet
+{
+	padding: 0px;
+	margin-top: 15px;
+	font-weight: bold;
+	color: #AFAFAF;
+}
+.ongletMedias
+{
+	margin-top: 15px;
+}
+.onglet a
+{
+	color: black;
+	display: block;
+	padding: 10px;
+	color: #dadada;
+	
+}
+.onglet a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+.onglet:hover
+{
+	background: #53c360;
+	border-color: #53c360;
+}
+.onglet
+{
+	float: left;
+	margin-left: 15px;
+	border: 2px solid #dadada;
+	color: #dadada;
+/* 	padding: 15px; */
+	
+}
+.onglet:first-child
+{
+	margin-left: 0px;
+}
+.active
+{
+	background-color: #53c360;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+	border: 2px solid #53c360;
+}
+.active a
+{
+	color: white;
+}
+.createPage
+{
+	background: #2596ed;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	transition: linear .5s;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.3);
+	display: inline-block;
+	height: 40px;
+	line-height: 20px;
+	font-size: 12px;
+	border-radius: 0px;
+	z-index: 10;
+}
+.createPage:hover
+{
+/* 	transform: scale(0.9); */
+/* 	background: #1882cf; */
+	text-decoration: none;
+	color: white;
+}
+.ligne
+{
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 0px;
+	padding-right: 15px;
+	border-bottom: 1px solid #dadada;
+}
+.btnAdd
+{
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+.ligne:last-child
+{
+	border-bottom: none;
+}
+.listMedia .cadre
+{
+	margin-top: 0px;
+}
+.listMedia
+{
+	margin-top: 0px;
+	padding: 0px;
+}
+.colonneDroite
+{
+/* 	padding-left: 7px; */
+}
+.colonneGauche
+{
+/* 	padding-right: 7px; */
+}
+.titre
+{
+	padding-top: 10px;
+	overflow: hidden;
+}
+.child2
+{
+	padding: 10px;
+	color: white;
+	-webkit-appearance: none;
+	border: none;
+	/*border: 1px solid #439956;*/
+	/*border-bottom: 4px solid #47A25B;*/
+	background: #34a1ff;
+	/*text-shadow: 0px -2px 1px rgba(0,0,0,0.2);*/
+	margin-bottom: 2px;
+	margin-top: 2px;
+	box-shadow: 0px -1px 1px rgba(255,255,255,0.3) inset;
+	text-align: center;	
+	padding-top: 7px !important;
+	padding-bottom: 7px !important;
+}
+.child2:hover
+{
+	cursor: pointer;
+	background: #6cc2ec !important;
+}
+.toggle
+{
+	font-size: 14px;
+	color: #AFAFAF;
+	border: 2px solid #AFAFAF;
+	padding: 5px;
+	font-weight: normal;
+	transition: linear .2s;
+	border-radius: 4px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
+.toggle:hover
+{
+	cursor: pointer;
+	color: black;
+	border-color: black;
+	text-decoration: none;
+}
+.ligne
+{
+/* 	display: none; */
+}
+h3
+{
+	margin-bottom: 5px !important;
+}
+.delete
+{
+	color: white;
+	background: linear-gradient(#FF485E, #E93B1E) !important;
+	border: none;
+	/*border: 1px solid #B92D18;*/
+	/*border-bottom: 4px solid #B92D18;*/
+	text-decoration: underline;
+}
+.listVideo
+{
+	margin-top: 0px !important;
+}
+.actionPages
+{
+	padding: 0px;
+}
+
+.actionPages div
+{
+	padding: 2px;
+	font-size: 10px;
+}
+.child, .edit, .delete, .child2
+{
+	text-decoration: none;
+	padding: 2px;
+	font-weight: bold;
+	border-radius: 0px !important;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24) !important;
+}
+.delete:hover
+{
+	background-color: #ff2b00 !important;
+}
+.child:hover, .delete:hover, .edit:hover
+{
+	cursor: pointer;
+}
+.enfantsDiv
+{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.linkButton
+{
+	padding: 10px;
+	font-size: 14px !important;
+	margin-top: 15px;
+}
+.back
+{
+	padding: 10px;
+	margin-left: 15px;
+	background: linear-gradient(#4DA5FB, #479AEA);
+}

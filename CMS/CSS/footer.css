@@ -1,0 +1,15 @@
+.cadreBootstrap
+{
+	min-height: 100px;
+	border: 1px solid #dde0e2;
+	padding: 15px;
+}
+.cadreBootstrap:hover
+{
+	cursor: pointer;
+	border-color: black;
+}
+.rendu, .copyright
+{
+	display: none;
+}

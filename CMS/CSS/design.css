@@ -1,0 +1,60 @@
+.customize
+{
+	background-color: #5497ff;
+}
+.customize:hover
+{
+	background-color: #518bcf !important;
+}
+.rubriqueTheme
+{
+	padding-top: 20px;
+	font-size: 20px;
+	color: #3f3f3f;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+.miniatureContainer
+{
+	text-align: center;
+	border: 1px solid #dadada;
+	padding: 7px;
+	margin-bottom: 30px;
+}
+.fichierCSS
+{
+	padding: 10px;
+	background-color: #dadada;
+	margin-bottom: 5px;
+}
+.fichierCSS:hover
+{
+	cursor: pointer;
+	background-color: #a4a4a4;
+}
+.CodeMirror {
+  border: 1px solid #eee;
+  height: 70vh;
+}
+.langOption label
+{
+    font-size: 18px; 
+    padding-left: 0 !important;
+    padding: 7px;
+}
+.cat
+{
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.deve:hover
+{
+    cursor: pointer;
+}
+.deve
+{
+    float: right;
+    font-size: 12px;
+    margin-top: 11px;
+}
