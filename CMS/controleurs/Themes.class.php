@@ -249,7 +249,7 @@ class Themes extends DB
 		    
 		    foreach($options as $key => $categories)
 		    {
-		        echo "<h3 class='col-md-12' style='padding: 15px;border-bottom: 1px solid #dadada; padding-bottom: 15px; font-size: 30px; margin-bottom: 15px; margin-top: 15px !important'>$key <span class='deve'>Développer</span></h3>";
+		        echo "<h3 class='col-md-12' style='padding: 15px;border-bottom: 1px solid #dadada; padding-bottom: 15px; font-size: 18px; margin-bottom: 15px; margin-top: 15px !important'>$key <span class='deve'>Développer</span></h3>";
 		        echo "<div class='cat'>";
 		        foreach($categories as $cle => $champs)
 		        {
