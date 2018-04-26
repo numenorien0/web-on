@@ -25,7 +25,7 @@ class Update extends DB
 
 	public function checkUpdate()
 	{
-		$fichierDeVersionGenerique = floatVal(file_get_contents("https://raw.githubusercontent.com/numenorien0/pilot/master/CMS/version.txt"));
+		$fichierDeVersionGenerique = floatVal(file_get_contents("https://raw.githubusercontent.com/numenorien0/web-on/master/CMS/version.txt"));
 		//exit($fichierDeVersionGenerique);
 		$fichierDeNotreVersion = floatVal(file_get_contents("version.txt"));
 		if($fichierDeNotreVersion < $fichierDeVersionGenerique)
@@ -40,7 +40,7 @@ class Update extends DB
 
 	public function update()
 	{
-		$source = "https://github.com/numenorien0/pilot/archive/master.zip";
+		$source = "https://github.com/numenorien0/web-on/archive/master.zip";
 		$destination = "pilot.zip";
 		if(copy($source, $destination))
 		{

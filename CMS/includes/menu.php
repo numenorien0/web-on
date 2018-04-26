@@ -18,7 +18,7 @@
 </div>
 <div id='menu' class='col-sm-2 sidebar-nav'>
 
-	<div id='logo' class='row' style='text-align:center; margin: <?=$margin?> 0px'><img style='width: 250px; max-width: <?=$size?>' src='images/<?=$logo?>'/></div>
+	<div id='logo' class='row' style='text-align:center; margin: <?=$margin?> 0px'><img style='width: 250px; max-width: 80%' src='images/<?=$logo?>'/></div>
 <!-- 	<a class='col-sm-12' id='tableauDeBord' href='index.php'><img src='images/dashboard.png'>Tableau de bord</a> -->
 	<a class='col-sm-12' href='analyse.php'><div class='imageContainerMenu'><i class="fal fa-chart-bar"></i></div>Statistiques</a>
 <!-- 	<a class='col-sm-12' href='mailing.php'><img src='images/mailbox.png'>Newsletters</a> -->
