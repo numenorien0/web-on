@@ -5,6 +5,23 @@
 	<?=$includeJSAndCSS;?>
 </head>
 <body>
+	<style>
+		input[type=submit]
+{
+	border-radius: 15px !important;
+	background: #52c3e5 url(https://pro.fontawesome.com/releases/v5.0.10/svgs/light/lock-alt.svg) !important;
+	color: white !important;
+	padding: 10px 25px !important;
+	font-size: 16px;
+	background-position: left center;
+	background-size: 50px;
+}
+h4
+{
+	border-bottom: none;
+	color: #9f9f9f;
+}
+		</style>
 <div class="container">
 		<?php
 			if(file_exists("db.conf"))
@@ -13,10 +30,12 @@
 			}
 		?>	
 		<form class='col-sm-6 col-sm-offset-3' method="POST">
+			
 			<div class='row logoRow'>
+				<h1 class='col-sm-12' style='text-align: center; font-weight: bold; color: #9f9f9f; font-size: 34px; margin: 0; margin-top: 30px; margin-bottom: 30px'>Installation</h1>
 <!-- 				<h3>Installation</h3> -->
-				<div id='logo' class='' style='margin-top: 15px; margin-bottom: 0px'><img src='images/<?=$logo?>' style='max-width: 100%; max-height: 200px'/></div>
-				<h1 class='col-sm-12' style='text-align: center; font-weight: bold; color: #9f9f9f; font-size: 14px; margin: 0; margin-bottom: 30px'>Installation</h1>
+				<div id='logo' class='' style='margin-top: 15px; margin-bottom: 0px'><img src='images/<?=$logoBlack?>' style='max-width: 100%; max-height: 200px'/></div>
+				
 			</div>
 			<?php 
 				$install = new Install();
