@@ -232,7 +232,7 @@ class pilot extends DB
 	public function get_logo()
 	{
 	    $logo = glob("CMS/content/logo/logo.*");
-		return $logo[0]."?v=".time();
+		return $logo[0];
 	}
 	
 	public function get_id_from_slug($slug)
