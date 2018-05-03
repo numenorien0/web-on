@@ -15,7 +15,7 @@ function GenerateSafeFileName($texte) {
 	function createThumbs( $pathToImages, $pathToThumbs, $thumbWidth ) 
 	{
 	    $info = pathinfo($pathToImages);
-	    if ( strtolower($info['extension']) == 'jpg' ) 
+	    if ( strtolower($info['extension']) == 'jpg' OR strtolower($info['extension']) == 'jpeg' ) 
 	    {
 
 	      $img = imagecreatefromjpeg($pathToImages);
