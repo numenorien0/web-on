@@ -306,7 +306,7 @@ class editMedias extends DB
 				$this->_listeErreur[] = "impossible d'uploader l'image, réessayez";
 			}
 		}
-		add_shortcode($this->_nom, "[shortcode plugin=galerie id=".$this->_db->lastInsertId()." height=500]", "");
+		add_shortcode($this->_nom, "[shortcode plugin=galerie id=".$this->_db->lastInsertId()." height=500px]", "");
 		$this->_nom = "";
 		$this->_description = "";
 		$this->_image = "";
