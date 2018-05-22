@@ -553,8 +553,9 @@ $(function(){
 	$('.parametreAccordeon .indication').hide();
 	
 	$('.parametreAccordeon .cadre h3').click(function(){
+	    //alert($(this).parent(".cadre").height());
 		//alert($(this).parent(".cadre").height());
-		if($(this).parent(".cadre").height() == '15')
+		if($(this).parent(".cadre").height() <= '15')
 		{
 			$(this).parent(".cadre").css({"height":"auto","overflow":"auto"});
 			$(this).children(".indication").show();
@@ -732,7 +733,7 @@ $(function(){
  		font_formats: "Roboto (défaut)=Roboto, sans-serif;"+"Andale Mono=andale mono,times;"+ "Arial=arial,helvetica,sans-serif;"+ "Arial Black=arial black,avant garde;"+ "Book Antiqua=book antiqua,palatino;"+ "Comic Sans MS=comic sans ms,sans-serif;"+ "Courier New=courier new,courier;"+ "Georgia=georgia,palatino;"+ "Helvetica=helvetica;"+ "Impact=impact,chicago;"+ "Symbol=symbol;"+ "Tahoma=tahoma,arial,helvetica,sans-serif;"+ "Terminal=terminal,monaco;"+ "Times New Roman=times new roman,times;"+ "Trebuchet MS=trebuchet ms,geneva;"+ "Verdana=verdana,geneva;"+ "Webdings=webdings;"+ "Wingdings=wingdings,zapf dingbats",
  		fontsize_formats: "8px 10px 12px 14px 18px 24px 36px",
     	relative_urls : false,
-    	plugins: "advlist image imagetools codemirror paste jbimages colorpicker textcolor fullscreen table link contextmenu media preview", 
+    	plugins: "advlist image codemirror paste colorpicker textcolor fullscreen table link contextmenu media preview", 
     	toolbar: "fullscreen | formatselect news image | mybutton | code link backcolor forecolor | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | table | fontsizeselect | media | formats | shortcode | grid | numlist bullist",
     	image_advtab: true,
     	valid_children : '+div[p]',
