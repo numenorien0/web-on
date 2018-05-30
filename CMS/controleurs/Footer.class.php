@@ -67,7 +67,7 @@ class Footer extends DB
 	{
 		foreach($this->_language as $key => $langue)
 		{
-			echo "<div class='rendu rendu-".$langue."'></div><div class='copyright copyright-".$langue."'><div data-number='copyrightCadre-".$langue."' class='copyrightCadre-".$langue." col-sm-12 cadreBootstrap'><p style='text-align: center'>Fièrement propulsé par Geronimo</p></div></div>";
+			echo "<div class='rendu rendu-".$langue."'></div><div class='copyright copyright-".$langue."'><div data-number='copyrightCadre-".$langue."' class='copyrightCadre-".$langue." col-sm-12 cadreBootstrap'><p style='text-align: center'>Développé par <a href='http://web-on.be'>Web-on.be</a></p></div></div>";
 		}
 		
 		

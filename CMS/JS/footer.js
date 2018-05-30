@@ -83,7 +83,7 @@ $(function(){
 
 	})		
 	var cadre = 0;
-	$('.rendu, .copyright').on("click", '.cadreBootstrap', function(){
+	$(document).on("click", '.cadreBootstrap', function(){
 		
 		var data = $(this).html();
 		cadre = $(this).attr('data-number');
