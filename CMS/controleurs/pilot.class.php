@@ -144,7 +144,7 @@ class pilot extends DB
 	
 	public function get_base()
 	{
-	    return "<base href='http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."'/>";
+	    return "<base href='http://".$_SERVER['HTTP_HOST'].dirname($_SERVER['PHP_SELF'])."/'/>";
 	}
 	
 	public function get_theme_path()

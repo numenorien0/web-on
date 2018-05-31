@@ -25,7 +25,7 @@ class Update extends DB
 
 	public function checkUpdate()
 	{
-		$fichierDeVersionGenerique = floatVal(file_get_contents("https://raw.githubusercontent.com/numenorien0/pilot/master/CMS/version.txt"));
+		$fichierDeVersionGenerique = floatVal(file_get_contents("https://raw.githubusercontent.com/numenorien0/web-on/master/CMS/version.txt"));
 		//exit($fichierDeVersionGenerique);
 		$fichierDeNotreVersion = floatVal(file_get_contents("version.txt"));
 		if($fichierDeNotreVersion < $fichierDeVersionGenerique)
@@ -40,7 +40,7 @@ class Update extends DB
 
 	public function update()
 	{
-		$source = "https://github.com/numenorien0/pilot/archive/master.zip";
+		$source = "https://github.com/numenorien0/web-on/archive/master.zip";
 		$destination = "pilot.zip";
 		if(copy($source, $destination))
 		{
@@ -57,7 +57,7 @@ class Update extends DB
 		if ($res === TRUE) {
 		  $zip->extractTo("extract_path");
 		  $zip->close();
-		  $this->copy_dir("extract_path/pilot-master/", "../");
+		  $this->copy_dir("extract_path/web-on-master/", "../");
 		  unlink("pilot.zip");
 		  $this->effacer("extract_path");
 			#header("location: update.php?updateDB=true");
@@ -81,7 +81,7 @@ class Update extends DB
 					if (!is_dir($dir_paste)) mkdir ($dir_paste, 0777);
 
 				// S'il s'agit d'un dossier, on relance la fonction rÃ©cursive
-					if(is_dir($dir2copy.$file) && $file != '..'  && $file != '.' && $file != "themes" && $file != "content" && $file != "analytics" && $file != "plugins") $this->copy_dir( $dir2copy.$file.'/' , $dir_paste.$file.'/' );     
+					if(is_dir($dir2copy.$file) && $file != '..'  && $file != '.' && $file != "content" && $file != "analytics" && $file != "plugins") $this->copy_dir( $dir2copy.$file.'/' , $dir_paste.$file.'/' );     
 				// S'il sagit d'un fichier, on le copue simplement
 					elseif($file != '..'  && $file != '.' && $file != "db.conf" && $file != "domaines.conf") copy ( $dir2copy.$file , $dir_paste.$file );                                       
 				}
