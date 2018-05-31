@@ -14,13 +14,17 @@ class Medias extends DB
     
     public function get_medias($date, $size = "thumb")
     {
-	    $dateFin = date("m/t/Y", $date);
+	    $dateFin = date("m/t/Y 23:59:59", $date);
 		$dateFin = strtotime($dateFin);
+		
+		//echo $dateFin;
+		//echo gettype($dateFin);
         $sql = "SELECT * FROM images WHERE (type = :size OR type = 'video') AND time >= :date AND time <= :dateFin ORDER BY time DESC";
         $reponse = $this->_db->prepare($sql);
         $reponse->bindParam(":size", $size);
         $reponse->bindParam(":date", $date);
         $reponse->bindParam(":dateFin", $dateFin);
+        //echo $date . "-". $dateFin;
         $reponse->execute();
         if($reponse->rowCount() != 0)
         {
@@ -28,7 +32,9 @@ class Medias extends DB
         }
         else
         {
+	       
 	        return "none";
+	        
         }
     }
     
